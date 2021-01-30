@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/item_background"
+    android:layout_margin="10dp"
+    android:id="@+id/linear"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/music_picture"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/pic" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/music_artist"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:fontFamily="@font/ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لیست موزیک"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/music_name"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:fontFamily="@font/ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لیست موزیک"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
