@@ -1,5 +1,5 @@
 # MusicPlayer
-Online music player app for android ( java )
+Online music player app for android ( Java )
 <div>
   <img src="https://github.com/arminmehraeen/MusicPlayer/blob/main/photos/1.jpeg" width="250">
   <img src="https://github.com/arminmehraeen/MusicPlayer/blob/main/photos/2.jpeg" width="250">
